@@ -17,7 +17,7 @@ public class ProjectExceptionAdviceConfig {
         if(!(ex instanceof MailException)) {
             ToEmail toEmail = new ToEmail();
 //            发送给谁
-            toEmail.setTos(new String[]{"xxx@qq.com"});
+            toEmail.setTos(new String[]{"1820067226@qq.com"});
             toEmail.setContent(ex.getMessage()+"\n"+Arrays.toString(ex.getStackTrace()));
             toEmail.setSubject("出bug啦");
             SendEmail.commonEmail(toEmail);
