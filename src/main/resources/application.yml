@@ -19,9 +19,9 @@ spring:
     # 编码集
     default-encoding: UTF-8
     #发送邮件的账户
-    username: #xxx@qq.com
+    username: #1820067226@qq.com
     #授权码
-    password: #xxx
+    password: yadqjvvgofsefcca
     test-connection: true
     properties:
       mail:
